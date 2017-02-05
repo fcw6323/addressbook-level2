@@ -11,4 +11,8 @@ public class PostalCode {
 	public int getPostalCode(){
 		return this.postalCode;
 	}
+	
+	public static boolean isValidPostalCode(int postalCode){
+		return Integer.toString(postalCode).matches("[0-9]{6}");
+	}
 }
