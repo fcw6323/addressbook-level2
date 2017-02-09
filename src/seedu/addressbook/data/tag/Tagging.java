@@ -11,7 +11,7 @@ public class Tagging {
 	private Person person;
 	private Tag tag;
 	private String tagOperation;
-	public static ArrayList<Tagging> TaggingList;//class-level ArrayList that contains all the tags
+	
 	/**
 	 * after instantiating a Tagging object, adds the object to the class-level ArrayList
 	 * @param person Person to be associated
@@ -22,7 +22,7 @@ public class Tagging {
 		this.person = person;
 		this.tag = tag;
 		this.tagOperation = tagOperation;
-		TaggingList.add(this);
+		
 		
 	}
 	
